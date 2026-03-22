@@ -1,0 +1,36 @@
+# 敏感信息
+.env
+*.key
+*.pem
+*.secret
+
+# 日志文件
+*.log
+logs/
+data/logs/
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Docker (可选，如果想保留 Dockerfile 就不忽略)
+# .docker/
+
+# 编译输出
+dist/
+build/
+*.pyc
+__pycache__/
